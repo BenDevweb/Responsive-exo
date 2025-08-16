@@ -158,15 +158,12 @@ body, html {
 }
 
 main {
-    
-    
     background-color: #fbccf6;
     border-radius: 10px;
 }
 
 .hero {
     background-color: #fbccf6;
-    
     border: none;
     border-radius: 20px;
     margin-top: 20px;
