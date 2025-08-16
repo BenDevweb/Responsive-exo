@@ -642,6 +642,7 @@ main {
 
     .product-details span {
         align-items: center;
+        text-align: center;
     }
 
     .secondary-elements {
