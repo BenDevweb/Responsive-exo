@@ -430,6 +430,16 @@ main {
     font-weight: bold;
 }
 
+.video-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    opacity: 0.7;
+}
+
 .chat-box {
     position: absolute;
     bottom: 10px;
@@ -452,6 +462,15 @@ main {
 
 .chat-box input:hover {
     border: 1px solid #d5d0d0;
+}
+
+.heart-icon {
+    font-size: 1.5rem;
+    height: 50px;
+    font-weight: bold;
+    padding-left: 30px; 
+    color: rgba(198, 198, 198, 0.429); 
+    cursor: pointer;
 }
 
 .secondary-elements {
