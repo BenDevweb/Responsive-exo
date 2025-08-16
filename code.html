@@ -1,75 +1,108 @@
-<div class="cards-group">
-            <div class="card">
-                <img src="assets/images/first-img (1).webp" alt="Product image" class="card-img" width="100px" height="70px">
-                <div class="card-content">
-                    <h3 class="card-title">Pond's Serum boost</h3>
-                    <p class="card-desc">$59.99 </p>
-                    <button class="card-btn">Shop Now</button>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignement Flexbox</title>
+    <!-- Importation de la police Google Fonts pour les icônes Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Importation d'Ionicons pour l'icône étoile -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+        }
+
+        /* --- Styles pour l'alignement --- */
+        .card-text-row {
+            display: flex; /* Active Flexbox */
+            align-items: center; /* Centre verticalement les éléments */
+            gap: 1rem; /* Ajoute un espace entre l'icône et le texte */
+        }
+        /* --- Fin des styles d'alignement --- */
+
+        .card-text-row .material-symbols-outlined {
+            color: #6c63ff; /* Exemple de couleur d'icône */
+            font-size: 2.5rem;
+        }
+
+        .card-text-col .User-number {
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .card-text-col .first-span a {
+            color: #6c63ff;
+            text-decoration: none;
+        }
+        
+        .line {
+            display: block;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+
+        .big-title {
+            font-size: 4rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .comment-text {
+            color: #555;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="card-text">
+                <!-- Conteneur parent avec Flexbox -->
+                <div class="card-text-row">
+                    <span class="material-symbols-outlined first-icon">
+                        nest_farsight_seasonal
+                    </span>
+                    <div class="card-text-col">
+                        <span class="User-number">20M<em class="one">+</em> User <br></span>
+                        <span class="first-span">Read Our <a href=""> Success Stories</a></span>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="big-title">Reels</h1>
+                </div>
+                <span class="line"></span>
+
+                <div class="comment">
+                    <p class="comment-text">Engage Viewers, Booster Sales, And Leverage User- 
+                    Content - All 30X Faster Than YouTube</p>
+                    <div class="comment-user">
+                        <span class="material-symbols-outlined">
+                            mobile_arrow_up_right
+                        </span>
+                        <span class="user-name">Earn more up to 200% / <ion-icon name="star"></ion-icon>4.9
+                        Viewship. </span>
+                        <span class="line"></span>
+                    </div>
+                    <div>
+                        <button><span>Download -</span> It's Free</button>
+                        <a href="#">Our Pricing 
+                            <span class="material-symbols-outlined">
+                                call_made
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="card-advanced" style="background-image: url('assets/images/bg-card.webp');">
-              <div class="card-adv-header">
-                <span class="card-adv-title">Reelup</span>
-                <span class="card-adv-icon">
-                  <ion-icon name="eye"></ion-icon>
-                </span>
-                <span class="material-symbols-outlined">
-                    motion_play
-                </span>
-              </div>
-              <div class="card-adv-center">
-                
-                <button>Chat</button>
-                <span class="card-adv-heart">
-                  <ion-icon name="heart"></ion-icon>
-                </span>
-              </div>
-              <div class="card-adv-left-images">
-                <img src="assets/images/images.jpeg" alt="User 1" class="card-adv-img" width="90px" height="100px">
-                <img src="assets/images/user2.webp" alt="User 2" class="card-adv-img" width="90px" height="100px">
-              </div>
-              <div class="card-adv-images">
-                <img src="assets/images/images (2).jpeg" alt="Product 1" class="card-adv-img" width="90px" height="100px">
-                <img src="assets/images/image3.webp" alt="Product 2" class="card-adv-img" width="98px">
-              </div>
-              
-            </div>
-          </div>
-
-    </section>
-
-    <!--<div class="comment">
-            <p class="comment-text">Engage Viewers, Booster Sales, And Leverage User- 
-            Content - All 30X Faster Than YouTube></p>
-            <div class="comment-user">
-                <span class="material-symbols-outlined">
-                    paid
-                </span>
-                <span class="user-name">Earn more up to 200%    / <ion-icon name="star"></ion-icon>4.9
-                Viewship. </span>
-                <span class="line"></span>
-            </div>
-        <div>
-                
-                    <button><span>Download -</span> It's Free</button>    
-                    <a href="#">Our Pricing 
-                        <span class="material-symbols-outlined">
-                            call_made
-                        </span>
-                    </a>
-        </div>
-    </div>-->
-
-</main>  
-
-<footer>
-    <div class="footer-content">
-        <div class="footer-brands">
-            <i class="bi bi-amazon"></i>
-            <i class="bi bi-apple"></i>
-            <i class="bi bi-android2"></i>
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-slack"></i>
-        </div>
-    </div>
-</footer>
+        </section>
+    </main>
+</body>
+</html>
