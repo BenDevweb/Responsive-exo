@@ -641,7 +641,7 @@ main {
     }
 
     .product-details span {
-        text-align: center;
+        align-items: center;
     }
 
     .secondary-elements {
