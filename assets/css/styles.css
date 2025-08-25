@@ -1,0 +1,34 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    flex-direction: column;
+}
+
+.loader-container {
+    text-align: center;
+}
+
+/* Style du spinner moderne */
+.loader {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid #ddd;
+    border-top-color: #fbccf6; 
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
