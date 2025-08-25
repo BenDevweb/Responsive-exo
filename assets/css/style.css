@@ -337,16 +337,6 @@ main {
     border-radius: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-/*.product-card {
-    display: flex;
-    flex-direction: row;
-    width: 120px;
-    align-items: center;
-    padding: 15px;
-    background-color: var(--card-bg-color);
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}*/
 
 .product-card img {
     width: 120px;
@@ -640,6 +630,7 @@ main {
     .product-details span {
         align-items: center;
         text-align: center;
+        padding-left: 50%;
     }
 
     .secondary-elements {
