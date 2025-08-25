@@ -518,7 +518,7 @@ main {
 
 .footer-content {
   padding: 20px;
-  background-color: #bf9898;
+  background-color: #f9bbf3;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   position: relative;
@@ -645,4 +645,12 @@ main {
     .secondary-elements {
         align-items: center;
     }
+
+    .footer-brands {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 }
