@@ -630,7 +630,7 @@ main {
     .product-details span {
         align-items: center;
         text-align: center;
-        padding-left: 50%;
+        padding-left: 50px;
     }
 
     .secondary-elements {
